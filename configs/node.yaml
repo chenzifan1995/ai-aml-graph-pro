@@ -1,0 +1,8 @@
+defaults:
+  - override hydra/job_logging: disabled
+
+task:
+  hidden_dim: 64
+  lr: 1e-3
+  max_epochs: 5
+  data_root: data/simulated
